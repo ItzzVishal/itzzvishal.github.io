@@ -10,7 +10,6 @@
 .u-section-1 .u-group-1 {
   width: 712px;
   min-height: 370px;
-  height: auto;
   margin: 337px auto 0 33px;
 }
 
@@ -23,7 +22,7 @@
   letter-spacing: 12px;
   font-size: 1.125rem;
   font-weight: 400;
-  margin: 77px auto 0 0;
+  margin: 76px auto 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -42,10 +41,6 @@
 
   .u-section-1 .u-sheet-1 {
     min-height: 590px;
-  }
-
-  .u-section-1 .u-group-1 {
-    height: auto;
   }
 
   .u-section-1 .u-text-2 {
