@@ -10,6 +10,8 @@
 .u-section-1 .u-image-1 {
   width: 300px;
   height: 300px;
+  background-image: url("images/PNGBIG.png");
+  background-position: 50% 50%;
   margin: -18px auto 0;
 }
 
@@ -48,7 +50,7 @@
 }
 
 .u-section-1 .u-icon-5 {
-  height: 44px;
+  height: 0;
 }
 
 .u-section-1 .u-text-3 {
@@ -62,10 +64,6 @@
 
   .u-section-1 .u-image-1 {
     margin-top: -44px;
-  }
-
-  .u-section-1 .u-icon-5 {
-    color: rgb(255, 255, 255) !important;
   }
 }
 
@@ -294,7 +292,7 @@
 }
 
 .u-section-4 .u-sheet-1 {
-  min-height: 222px;
+  min-height: 230px;
 }
 
 .u-section-4 .u-text-1 {
@@ -303,12 +301,17 @@
 
 .u-section-4 .u-text-2 {
   width: 680px;
-  margin: 50px auto 61px;
+  margin: 54px auto 57px;
+}
+
+.u-section-4 .u-btn-1 {
+  background-image: none;
+  padding: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 183px;
+    min-height: 190px;
   }
 
   .u-section-4 .u-text-1 {
@@ -318,19 +321,18 @@
   .u-section-4 .u-text-2 {
     margin-left: 230px;
     margin-right: 230px;
-    margin-bottom: 60px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 140px;
+    min-height: 146px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 105px;
+    min-height: 110px;
   }
 
   .u-section-4 .u-text-2 {
@@ -342,7 +344,7 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 66px;
+    min-height: 69px;
   }
 
   .u-section-4 .u-text-1 {
