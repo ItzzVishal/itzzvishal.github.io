@@ -1,21 +1,24 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/kNIFE1.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/Pic1.jpg");
   background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 792px;
+  min-height: 701px;
 }
 
 .u-section-1 .u-text-1 {
   font-size: 6rem;
   font-weight: 700;
-  margin: 34px auto 0;
+  text-shadow: -1px 4px 7px rgba(0,0,0,0);
+  margin: 35px auto 0;
 }
 
 .u-section-1 .u-text-2 {
   font-family: Boogaloo;
-  margin: 426px 109px 0;
+  text-shadow: 3px 0px 23px rgba(0,0,0,0.55);
+  font-size: 1.5rem;
+  margin: 0 109px;
 }
 
 .u-section-1 .u-social-icons-1 {
@@ -23,7 +26,7 @@
   min-height: 16px;
   width: 206px;
   min-width: 94px;
-  margin: 27px auto 0;
+  margin: 432px auto 0 467px;
 }
 
 .u-section-1 .u-icon-1 {
@@ -44,12 +47,12 @@
 
 .u-section-1 .u-text-3 {
   font-family: Allan;
-  margin: 27px auto 60px;
+  margin: 15px auto 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 653px;
+    min-height: 578px;
   }
 
   .u-section-1 .u-text-2 {
@@ -60,7 +63,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 500px;
+    min-height: 443px;
   }
 
   .u-section-1 .u-text-2 {
@@ -71,16 +74,33 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 375px;
+    min-height: 332px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 697px;
+    min-height: 703px;
   }
 
   .u-section-1 .u-text-1 {
     font-size: 3.75rem;
+    margin-top: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 36px;
+  }
+
+  .u-section-1 .u-social-icons-1 {
+    margin-top: 375px;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-top: 17px;
+    margin-bottom: 19px;
   }
 }
